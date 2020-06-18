@@ -22,21 +22,37 @@
     "clean": "ets clean"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bcrypto": "^5.2.0",
+    "cookie": "^0.4.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
     "egg": "^2.6.1",
-    "egg-scripts": "^2.6.0"
+    "egg-cors": "^2.2.3",
+    "egg-scripts": "^2.6.0",
+    "egg-sequelize": "^5.2.1",
+    "egg-validate": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "ms": "^2.1.2",
+    "mysql2": "^2.1.0",
+    "node-jsencrypt": "^1.0.0",
+    "sequelize": "^5.21.13"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.40",
-    "@types/node": "^7.0.12",
+    "@types/node": "^7.10.11",
     "@types/supertest": "^2.0.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
-    "egg-ci": "^1.8.0",
     "egg-bin": "^4.11.0",
+    "egg-ci": "^1.8.0",
     "egg-mock": "^3.16.0",
-    "tslib": "^1.9.0",
+    "egg-ts-helper": "^1.25.8",
     "eslint": "^6.7.2",
     "eslint-config-egg": "^8.0.0",
+    "tslib": "^1.9.0",
     "typescript": "^3.0.0"
   },
   "engines": {
@@ -47,9 +63,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+ssh://git@github.com:earth-business-council/yoomi-cms-api.git"
   },
-  "eslintIgnore": ["coverage"],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "author": "shijinyu<sjym90@gmail.com>",
   "license": "MIT"
 }
